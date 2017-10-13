@@ -1,0 +1,5 @@
+-z -c -m"./Debug/test_test.map" -o"./Debug/test_sata.out" -w -x -i"D:/Program Files/Texas Instruments/TMS470 Code Generation Tools 4.6.2/lib"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\sata\ccs\linker_arm.cmd"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\sata\ccs\Debug\main_sata.obj"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\sata\ccs\Debug\sata_utilities.obj"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\sata\ccs\Debug\test_sata.obj"

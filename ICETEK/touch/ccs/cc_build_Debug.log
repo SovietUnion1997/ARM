@@ -1,0 +1,8 @@
+-----------------------------  touch.pjt - Debug  -----------------------------
+[Linking...] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -@"Debug.lkf"
+<Linking>
+warning: creating output section ".sysmem" without a SECTIONS specification
+warning: entry-point symbol other than "_c_int00" specified:  "_Entry"
+
+Build Complete,
+  0 Errors, 2 Warnings, 0 Remarks.

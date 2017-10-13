@@ -1,0 +1,19 @@
+-------------------------  test_led_dip..pjt - Debug  -------------------------
+[main_led_dip.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/led_dip/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "main_led_dip.c"
+
+[test_led_dip.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/led_dip/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "test_led_dip.c"
+"test_led_dip.c", line 69: warning: function declared implicitly
+"test_led_dip.c", line 91: warning: function declared implicitly
+"test_led_dip.c", line 108: warning: function declared implicitly
+"test_led_dip.c", line 109: warning: function declared implicitly
+"test_led_dip.c", line 45: warning: variable "rtn" was declared but never referenced
+"test_led_dip.c", line 47: warning: variable "tmp_val" was declared but never referenced
+"test_led_dip.c", line 49: warning: variable "last_dip_state" was declared but never referenced
+
+[Linking...] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -@"Debug.lkf"
+<Linking>
+warning: creating output section ".sysmem" without a SECTIONS specification
+warning: entry-point symbol other than "_c_int00" specified:  "_Entry"
+
+Build Complete,
+  0 Errors, 9 Warnings, 0 Remarks.

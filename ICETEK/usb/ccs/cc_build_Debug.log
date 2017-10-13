@@ -1,0 +1,12 @@
+------------------------------  usb.pjt - Debug  ------------------------------
+[main_usb.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/usb/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "main_usb.c"
+
+[test_usb.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/usb/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "test_usb.c"
+
+[Linking...] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -@"Debug.lkf"
+<Linking>
+warning: creating output section ".sysmem" without a SECTIONS specification
+warning: entry-point symbol other than "_c_int00" specified:  "_Entry"
+
+Build Complete,
+  0 Errors, 2 Warnings, 0 Remarks.

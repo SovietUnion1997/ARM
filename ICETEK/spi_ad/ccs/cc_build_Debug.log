@@ -1,0 +1,12 @@
+-----------------------------  spi_ad.pjt - Debug  -----------------------------
+[test_spi_ad.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/spi_ad/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "test_spi_ad.c"
+"test_spi_ad.c", line 89: warning: function declared implicitly
+"test_spi_ad.c", line 110: warning: function "TEST_spi_ad_isr" was declared but never referenced
+
+[Linking...] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -@"Debug.lkf"
+<Linking>
+warning: creating output section ".sysmem" without a SECTIONS specification
+warning: entry-point symbol other than "_c_int00" specified:  "_Entry"
+
+Build Complete,
+  0 Errors, 4 Warnings, 0 Remarks.

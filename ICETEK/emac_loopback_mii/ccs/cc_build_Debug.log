@@ -1,0 +1,14 @@
+--------------------------  mii_loopback.pjt - Debug  --------------------------
+[main_mii_loopback.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/emac_loopback_mii/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "main_mii_loopback.c"
+
+[test_mii_loopback.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/emac_loopback_mii/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "test_mii_loopback.c"
+"test_mii_loopback.c", line 44: warning: function declared implicitly
+"test_mii_loopback.c", line 106: warning: function declared implicitly
+
+[Linking...] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -@"Debug.lkf"
+<Linking>
+warning: creating output section ".sysmem" without a SECTIONS specification
+warning: entry-point symbol other than "_c_int00" specified:  "_Entry"
+
+Build Complete,
+  0 Errors, 4 Warnings, 0 Remarks.

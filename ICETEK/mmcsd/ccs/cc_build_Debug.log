@@ -1,0 +1,13 @@
+-----------------------------  mmcsd.pjt - Debug  -----------------------------
+[main_mmcsd.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/mmcsd/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "main_mmcsd.c"
+
+[test_mmcsd.c] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -g -pdsw225 -fr"D:/project/Omap-l138/project/evmomapl138_v3_arm/test/ICETEK/mmcsd/ccs/Debug" -i"../inc" -i"../../../../bsl/inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi -@"../ccs/Debug.lkf" "test_mmcsd.c"
+"test_mmcsd.c", line 179: warning: function declared implicitly
+
+[Linking...] "D:\Program Files\Texas Instruments\TMS470 Code Generation Tools 4.6.2\bin\cl470" -@"Debug.lkf"
+<Linking>
+warning: creating output section ".sysmem" without a SECTIONS specification
+warning: entry-point symbol other than "_c_int00" specified:  "_Entry"
+
+Build Complete,
+  0 Errors, 3 Warnings, 0 Remarks.

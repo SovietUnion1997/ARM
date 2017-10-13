@@ -1,0 +1,36 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\mmcsd\ccs\"
+ProjectType=Executable
+CPUFamily=TMS470R2X
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="Linker"
+Tool="XDC"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\src\main_mmcsd.c"
+Source="..\src\test_mmcsd.c"
+Source="linker_arm.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -i"..\inc" -i"..\..\..\..\bsl\inc" -d"_DEBUG" -d"NO_GEL" -me -mv5e --abi=ti_arm9_abi
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o3 -fr"$(Proj_dir)\Release" -i"..\inc" -i"..\..\..\..\bsl\inc" -d"NO_GEL" -mv5e --abi=ti_arm9_abi
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\test_test.map" -o".\Debug\test_mmcsd.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\test_test.map" -o".\Release\test_mmcsd.out" -w -x
+
+["linker_arm.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["linker_arm.cmd" Settings: "Release"]
+LinkOrder=1
+

@@ -1,0 +1,4 @@
+-z -c -m"./Debug/test_test.map" -o"./Debug/test_spi_ad.out" -w -x -i"D:/Program Files/Texas Instruments/TMS470 Code Generation Tools 4.6.2/lib"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\spi_ad\ccs\linker_arm.cmd"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\spi_ad\ccs\Debug\main_spi_ad.obj"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\spi_ad\ccs\Debug\test_spi_ad.obj"

@@ -1,0 +1,4 @@
+-z -c -m"./Debug/test_test.map" -o"./Debug/test_nand.out" -w -x -i"D:/Program Files/Texas Instruments/TMS470 Code Generation Tools 4.6.2/lib"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\nand\ccs\linker_arm.cmd"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\nand\ccs\Debug\main_nand.obj"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\nand\ccs\Debug\test_nand.obj"

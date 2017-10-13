@@ -1,0 +1,4 @@
+-z -c -m"./Debug/test_test.map" -o"./Debug/test_usb.out" -w -x -i"D:/Program Files/Texas Instruments/TMS470 Code Generation Tools 4.6.2/lib"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\usb\ccs\linker_arm.cmd"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\usb\ccs\Debug\main_usb.obj"
+"D:\project\Omap-l138\project\evmomapl138_v3_arm\test\ICETEK\usb\ccs\Debug\test_usb.obj"

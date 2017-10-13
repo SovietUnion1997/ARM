@@ -1,0 +1,4 @@
+-z -c -m"./Debug/test_test.map" -o"./Debug/test_ctr_buzzer.out" -w -x -i"C:/Program Files/Texas Instruments/TMS470 Code Generation Tools 4.6.2/lib"
+"C:\ICETEK\evmomapl138_v3_arm\test\ICETEK\ctr_buzzer\ccs\linker_arm.cmd"
+"C:\ICETEK\evmomapl138_v3_arm\test\ICETEK\ctr_buzzer\ccs\Debug\main_ctr_buzzer.obj"
+"C:\ICETEK\evmomapl138_v3_arm\test\ICETEK\ctr_buzzer\ccs\Debug\test_ctr_buzzer.obj"

@@ -1,0 +1,4 @@
+-z -c -m"./Debug/test_test.map" -o"./Debug/test_ctr_dcmotor.out" -w -x -i"C:/Program Files/Texas Instruments/TMS470 Code Generation Tools 4.6.2/lib"
+"C:\ICETEK\evmomapl138_v3_arm\test\ICETEK\ctr_dcmotor\ccs\linker_arm.cmd"
+"C:\ICETEK\evmomapl138_v3_arm\test\ICETEK\ctr_dcmotor\ccs\Debug\main_ctr_dcmotor.obj"
+"C:\ICETEK\evmomapl138_v3_arm\test\ICETEK\ctr_dcmotor\ccs\Debug\test_ctr_dcmotor.obj"

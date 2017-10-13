@@ -1,0 +1,510 @@
+******************************************************************************
+                  TMS470 Linker PC v4.6.2                      
+******************************************************************************
+>> Linked Fri Jun 15 16:46:41 2012
+
+OUTPUT FILE NAME:   <./Debug/test_mmcsd.out>
+ENTRY POINT SYMBOL: "_Entry"  address: 80000000
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  ONCHIP_RAM            80000000   00020000  0000a1dc  00015e24  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.init      0    80000000    0000008c     
+                  80000000    0000008c     evmomapl138_csl.lib : evmomapl138_init.obj (.text)
+
+.data      0    80000000    00000000     UNINITIALIZED
+
+.text      0    8000008c    000064d0     
+                  8000008c    00001678     rts32e.lib : _printfi.obj (.text)
+                  80001704    00000764                : memory.obj (.text)
+                  80001e68    0000071c                : lowlev.obj (.text)
+                  80002584    000006b8     test_mmcsd.obj (.text)
+                  80002c3c    00000688     evmomapl138_bsl.lib : evmomapl138.obj (.text)
+                  800032c4    000005c0     rts32e.lib : trgdrv.obj (.text)
+                  80003884    000004b8     evmomapl138_bsl.lib : evmomapl138_mmcsd.obj (.text)
+                  80003d3c    0000039c                         : evmomapl138_i2c_gpio.obj (.text)
+                  800040d8    00000344     rts32e.lib : fopen.obj (.text)
+                  8000441c    0000028c                : ull_div32.obj (.text)
+                  800046a8    0000027c     evmomapl138_bsl.lib : evmomapl138_i2c.obj (.text)
+                  80004924    00000270     evmomapl138_csl.lib : evmomapl138_interrupt.obj (.text)
+                  80004b94    00000214     rts32e.lib : fd_add32.obj (.text)
+                  80004da8    00000198                : fputs.obj (.text)
+                  80004f40    00000190                : fd_div32.obj (.text)
+                  800050d0    00000180                : memcpy32.obj (.text)
+                  80005250    00000168     evmomapl138_bsl.lib : evmomapl138_timer.obj (.text)
+                  800053b8    00000128     rts32e.lib : fd_mul32.obj (.text)
+                  800054e0    00000128                : fflush.obj (.text)
+                  80005608    00000120                : _io_perm.obj (.text)
+                  80005728    00000118                : setvbuf.obj (.text)
+                  80005840    00000100                : i_div32.obj (.text)
+                  80005940    000000e0                : u_div32.obj (.text)
+                  80005a20    000000d8                : fputc.obj (.text)
+                  80005af8    000000c8     main_mmcsd.obj (.text)
+                  80005bc0    000000c0     rts32e.lib : fd_cmp32.obj (.text)
+                  80005c80    000000b0                : trgmsg.obj (.text)
+                  80005d30    000000a8                : auto_init.obj (.text)
+                  80005dd8    000000a0                : memset32.obj (.text)
+                  80005e78    0000009c                : exit.obj (.text)
+                  80005f14    0000009c                : fclose.obj (.text)
+                  80005fb0    00000088                : atoi.obj (.text)
+                  80006038    00000088                : ltoa.obj (.text)
+                  800060c0    00000084                : fseek.obj (.text)
+                  80006144    0000007c     evmomapl138_csl.lib : exceptionhandler.obj (.text)
+                  800061c0    0000006c     rts32e.lib : printf.obj (.text)
+                  8000622c    0000005c                : cpy_tbl.obj (.text)
+                  80006288    0000005c                : fd_toi32.obj (.text)
+                  800062e4    00000048                : strncpy.obj (.text)
+                  8000632c    00000044                : boot.obj (.text)
+                  80006370    0000003c                : i_tofd32.obj (.text)
+                  800063ac    00000034     evmomapl138_csl.lib : evmomapl138_startup.obj (.text)
+                  800063e0    00000034     rts32e.lib : memcmp.obj (.text)
+                  80006414    0000002c                : memchr.obj (.text)
+                  80006440    0000002c                : strcmp.obj (.text)
+                  8000646c    00000028                : memccpy.obj (.text)
+                  80006494    00000028                : strchr.obj (.text)
+                  800064bc    00000024                : _lock.obj (.text)
+                  800064e0    00000020                : args_main.obj (.text)
+                  80006500    00000020                : icall32.obj (.text)
+                  80006520    0000001c                : strcpy.obj (.text)
+                  8000653c    0000001c                : strlen.obj (.text)
+                  80006558    00000004                : remove.obj (.text)
+
+.bss       0    8000655c    00000a10     UNINITIALIZED
+                  8000655c    00000200     test_mmcsd.obj (.bss:_rx_buffer)
+                  8000675c    00000200     test_mmcsd.obj (.bss:_tx_buffer)
+                  8000695c    00000194     evmomapl138_csl.lib : evmomapl138_interrupt.obj (.bss:_fnRAMVectors)
+                  80006af0    00000120     rts32e.lib : trgmsg.obj (.bss:__CIOBUF_)
+                  80006c10    000000f0                : defs.obj (.bss:__ftable)
+                  80006d00    000000c8                : trgdrv.obj (.bss:_result$1)
+                  80006dc8    000000a0                : defs.obj (.bss:__tmpnams)
+                  80006e68    00000078                : lowlev.obj (.bss:__device)
+                  80006ee0    00000050                : lowlev.obj (.bss:__stream)
+                  80006f30    0000000c                : memory.obj (.bss)
+                  80006f3c    00000008                : _lock.obj (.bss)
+                  80006f44    00000008                : exit.obj (.bss)
+                  80006f4c    00000008                : trgdrv.obj (.bss)
+                  80006f54    00000004     evmomapl138_bsl.lib : evmomapl138_i2c.obj (.bss)
+                  80006f58    00000004     rts32e.lib : boot.obj (.bss)
+                  80006f5c    00000004                : defs.obj (.bss)
+                  80006f60    00000004                : fopen.obj (.bss)
+                  80006f64    00000004                : lowlev.obj (.bss)
+                  80006f68    00000004                : stkdepth_vars.obj (.bss)
+
+.const     0    80006f6c    0000013c     
+                  80006f6c    00000101     rts32e.lib : ctype.obj (.const:__ctypes_)
+                  8000706d    00000003     --HOLE-- [fill = 0]
+                  80007070    00000038     evmomapl138_csl.lib : evmomapl138_startup.obj (.const:_vecTbl)
+
+.cinit     0    800070a8    00000134     
+                  800070a8    0000005c     rts32e.lib : defs.obj (.cinit)
+                  80007104    0000005c                : lowlev.obj (.cinit)
+                  80007160    00000024                : memory.obj (.cinit)
+                  80007184    00000018                : _lock.obj (.cinit)
+                  8000719c    00000018                : exit.obj (.cinit)
+                  800071b4    0000000c                : boot.obj (.cinit)
+                  800071c0    0000000c                : fopen.obj (.cinit)
+                  800071cc    0000000c                : stkdepth_vars.obj (.cinit)
+                  800071d8    00000004     --HOLE-- [fill = 0]
+
+.sysmem    0    800071dc    00001000     UNINITIALIZED
+                  800071dc    00000008     rts32e.lib : memory.obj (.sysmem)
+                  800071e4    00000ff8     --HOLE--
+
+.stack     0    8001e000    00002000     UNINITIALIZED
+                  8001e000    00002000     --HOLE--
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+8000655c   .bss
+80000000   .data
+8000008c   .text
+80005e78   C$$EXIT
+80005cc8   C$$IO$$
+800050d0   C_MEMCPY
+80004ba0   FD_ADD
+80005bc0   FD_CMP
+80004f40   FD_DIV
+800053b8   FD_MUL
+80004b94   FD_SUB
+80006288   FD_TOI
+80005840   I$DIV
+80005840   I$MOD
+80006500   IND_CALL
+80005844   I_DIV
+80005844   I_MOD
+80006370   I_TOFD
+80005940   U$DIV
+80005940   U$MOD
+8000441c   ULL_DIV
+8000441c   ULL_MOD
+80005944   U_DIV
+80005944   U_MOD
+80006148   _ADDR_HIPVR1
+800061a8   _AbortHandler
+800063d4   _BootAbort
+80004b64   _CPUAbortHandler
+80003254   _EVMOMAPL138_enableDsp
+8000307c   _EVMOMAPL138_init
+80002f60   _EVMOMAPL138_initRAM
+80002f4c   _EVMOMAPL138_lpscForce
+80002ee4   _EVMOMAPL138_lpscTransition
+80002e98   _EVMOMAPL138_pinmuxConfig
+80000000   _Entry
+8000618c   _FIQHandler
+800037fc   _HOSTclock
+8000377c   _HOSTclose
+800036c4   _HOSTlseek
+80003620   _HOSTopen
+80003584   _HOSTread
+800034d0   _HOSTrename
+80003458   _HOSTtime
+800033dc   _HOSTunlink
+80003340   _HOSTwrite
+80004008   _I2CGPIO_getInput
+80003f30   _I2CGPIO_getInputAll
+80003e7c   _I2CGPIO_init
+80003d90   _I2CGPIO_setOutput
+80003d3c   _I2CGPIO_setOutputAll
+800046a8   _I2C_init
+80004828   _I2C_read
+80004760   _I2C_write
+80006170   _IRQHandler
+80004ac4   _IntAINTCInit
+80004ab8   _IntChannelGet
+80004aac   _IntChannelSet
+80004a94   _IntDisable
+80004a84   _IntEnable
+80004a70   _IntFIQDisable
+80004a5c   _IntFIQEnable
+80004a48   _IntGlobalDisable
+80004a38   _IntGlobalEnable
+80004a24   _IntIRQDisable
+80004a10   _IntIRQEnable
+80004a00   _IntMasterFIQDisable
+800049f0   _IntMasterFIQEnable
+800049e0   _IntMasterIRQDisable
+800049d0   _IntMasterIRQEnable
+800049bc   _IntMasterStatusGet
+800049b0   _IntRegister
+80004998   _IntSystemDisable
+8000497c   _IntSystemEnable
+80004964   _IntSystemStatusClear
+8000494c   _IntSystemStatusEnabledGet
+80004934   _IntSystemStatusRawGet
+80004924   _IntUnRegister
+80003b38   _MMCSD_identifyCard
+80003a58   _MMCSD_init
+800039ac   _MMCSD_readBlock
+800038f8   _MMCSD_writeBlock
+80006150   _SWIHandler
+80002584   _TEST_mmcSD
+8000533c   _USTIMER_delay
+8000532c   _USTIMER_get
+8000528c   _USTIMER_init
+80005260   _USTIMER_reset
+80005250   _USTIMER_set
+80002e78   _UTIL_isUIBoardAttached
+800061a8   _UndefInstHandler
+80006af0   __CIOBUF_
+80020000   __STACK_END
+00002000   __STACK_SIZE
+00001000   __SYSMEM_SIZE
+00000001   __TI_args_main
+80005d30   __TI_auto_init
+ffffffff   ___binit__
+8000655c   ___bss__
+ffffffff   ___c_args__
+800070a8   ___cinit__
+80000000   ___data__
+80000000   ___edata__
+80006f6c   ___end__
+8000655c   ___etext__
+ffffffff   ___pinit__
+8000008c   ___text__
+800064e0   __args_main
+8000421c   __cleanup
+80006f44   __cleanup_ptr
+80006f6c   __ctypes_
+800054e0   __doflush
+80006f48   __dtors_ptr
+80006f5c   __ft_end
+80006c10   __ftable
+80006f3c   __lock
+800064d4   __nop
+80001480   __printfi
+800056ac   __rd_ok
+800064c8   __register_lock
+800064bc   __register_unlock
+8001e000   __stack
+800071dc   __sys_memory
+80006dc8   __tmpnams
+80006f40   __unlock
+80005608   __wrt_ok
+80005e80   _abort
+8000248c   _add_device
+80005fb0   _atoi
+8000632c   _c_int00
+80001e0c   _calloc
+800023d8   _close
+80002d3c   _config_pll0
+80002c3c   _config_pll1
+8000622c   _copy_in
+80005e8c   _exit
+80005f14   _fclose
+80005568   _fflush
+800023d4   _find_registered_device
+8000439c   _fopen
+80005a20   _fputc
+80004da8   _fputs
+800018f0   _free
+80004294   _freopen
+800060c0   _fseek
+800032c4   _getenv
+80002338   _lseek
+80006038   _ltoa
+80005af8   _main
+80006f68   _main_func_sp
+8000181c   _malloc
+80001cb4   _memalign
+8000646c   _memccpy
+80006414   _memchr
+800063e0   _memcmp
+80005dd8   _memset
+80001704   _minit
+80002234   _open
+800061c0   _printf
+80005a20   _putc
+80005aec   _putchar
+80004f08   _puts
+80002118   _read
+80005cd4   _readmsg
+80001ac0   _realloc
+80006558   _remove
+800020b0   _remove_device
+80002020   _rename
+80005728   _setvbuf
+800063ac   _start_boot
+80006f58   _stkchk_called
+80006494   _strchr
+80006440   _strcmp
+80006520   _strcpy
+8000653c   _strlen
+800062e4   _strncpy
+80001fc0   _unlink
+80001e68   _write
+80005c80   _writemsg
+ffffffff   binit
+80006f6c   bss_end
+8000655c   bss_start
+800070a8   cinit
+80000000   edata
+80006f6c   end
+8000655c   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000001   __TI_args_main
+00001000   __SYSMEM_SIZE
+00002000   __STACK_SIZE
+80000000   .data
+80000000   _Entry
+80000000   ___data__
+80000000   ___edata__
+80000000   edata
+8000008c   .text
+8000008c   ___text__
+80001480   __printfi
+80001704   _minit
+8000181c   _malloc
+800018f0   _free
+80001ac0   _realloc
+80001cb4   _memalign
+80001e0c   _calloc
+80001e68   _write
+80001fc0   _unlink
+80002020   _rename
+800020b0   _remove_device
+80002118   _read
+80002234   _open
+80002338   _lseek
+800023d4   _find_registered_device
+800023d8   _close
+8000248c   _add_device
+80002584   _TEST_mmcSD
+80002c3c   _config_pll1
+80002d3c   _config_pll0
+80002e78   _UTIL_isUIBoardAttached
+80002e98   _EVMOMAPL138_pinmuxConfig
+80002ee4   _EVMOMAPL138_lpscTransition
+80002f4c   _EVMOMAPL138_lpscForce
+80002f60   _EVMOMAPL138_initRAM
+8000307c   _EVMOMAPL138_init
+80003254   _EVMOMAPL138_enableDsp
+800032c4   _getenv
+80003340   _HOSTwrite
+800033dc   _HOSTunlink
+80003458   _HOSTtime
+800034d0   _HOSTrename
+80003584   _HOSTread
+80003620   _HOSTopen
+800036c4   _HOSTlseek
+8000377c   _HOSTclose
+800037fc   _HOSTclock
+800038f8   _MMCSD_writeBlock
+800039ac   _MMCSD_readBlock
+80003a58   _MMCSD_init
+80003b38   _MMCSD_identifyCard
+80003d3c   _I2CGPIO_setOutputAll
+80003d90   _I2CGPIO_setOutput
+80003e7c   _I2CGPIO_init
+80003f30   _I2CGPIO_getInputAll
+80004008   _I2CGPIO_getInput
+8000421c   __cleanup
+80004294   _freopen
+8000439c   _fopen
+8000441c   ULL_DIV
+8000441c   ULL_MOD
+800046a8   _I2C_init
+80004760   _I2C_write
+80004828   _I2C_read
+80004924   _IntUnRegister
+80004934   _IntSystemStatusRawGet
+8000494c   _IntSystemStatusEnabledGet
+80004964   _IntSystemStatusClear
+8000497c   _IntSystemEnable
+80004998   _IntSystemDisable
+800049b0   _IntRegister
+800049bc   _IntMasterStatusGet
+800049d0   _IntMasterIRQEnable
+800049e0   _IntMasterIRQDisable
+800049f0   _IntMasterFIQEnable
+80004a00   _IntMasterFIQDisable
+80004a10   _IntIRQEnable
+80004a24   _IntIRQDisable
+80004a38   _IntGlobalEnable
+80004a48   _IntGlobalDisable
+80004a5c   _IntFIQEnable
+80004a70   _IntFIQDisable
+80004a84   _IntEnable
+80004a94   _IntDisable
+80004aac   _IntChannelSet
+80004ab8   _IntChannelGet
+80004ac4   _IntAINTCInit
+80004b64   _CPUAbortHandler
+80004b94   FD_SUB
+80004ba0   FD_ADD
+80004da8   _fputs
+80004f08   _puts
+80004f40   FD_DIV
+800050d0   C_MEMCPY
+80005250   _USTIMER_set
+80005260   _USTIMER_reset
+8000528c   _USTIMER_init
+8000532c   _USTIMER_get
+8000533c   _USTIMER_delay
+800053b8   FD_MUL
+800054e0   __doflush
+80005568   _fflush
+80005608   __wrt_ok
+800056ac   __rd_ok
+80005728   _setvbuf
+80005840   I$DIV
+80005840   I$MOD
+80005844   I_DIV
+80005844   I_MOD
+80005940   U$DIV
+80005940   U$MOD
+80005944   U_DIV
+80005944   U_MOD
+80005a20   _fputc
+80005a20   _putc
+80005aec   _putchar
+80005af8   _main
+80005bc0   FD_CMP
+80005c80   _writemsg
+80005cc8   C$$IO$$
+80005cd4   _readmsg
+80005d30   __TI_auto_init
+80005dd8   _memset
+80005e78   C$$EXIT
+80005e80   _abort
+80005e8c   _exit
+80005f14   _fclose
+80005fb0   _atoi
+80006038   _ltoa
+800060c0   _fseek
+80006148   _ADDR_HIPVR1
+80006150   _SWIHandler
+80006170   _IRQHandler
+8000618c   _FIQHandler
+800061a8   _AbortHandler
+800061a8   _UndefInstHandler
+800061c0   _printf
+8000622c   _copy_in
+80006288   FD_TOI
+800062e4   _strncpy
+8000632c   _c_int00
+80006370   I_TOFD
+800063ac   _start_boot
+800063d4   _BootAbort
+800063e0   _memcmp
+80006414   _memchr
+80006440   _strcmp
+8000646c   _memccpy
+80006494   _strchr
+800064bc   __register_unlock
+800064c8   __register_lock
+800064d4   __nop
+800064e0   __args_main
+80006500   IND_CALL
+80006520   _strcpy
+8000653c   _strlen
+80006558   _remove
+8000655c   .bss
+8000655c   ___bss__
+8000655c   ___etext__
+8000655c   bss_start
+8000655c   etext
+80006af0   __CIOBUF_
+80006c10   __ftable
+80006dc8   __tmpnams
+80006f3c   __lock
+80006f40   __unlock
+80006f44   __cleanup_ptr
+80006f48   __dtors_ptr
+80006f58   _stkchk_called
+80006f5c   __ft_end
+80006f68   _main_func_sp
+80006f6c   ___end__
+80006f6c   __ctypes_
+80006f6c   bss_end
+80006f6c   end
+800070a8   ___cinit__
+800070a8   cinit
+800071dc   __sys_memory
+8001e000   __stack
+80020000   __STACK_END
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[186 symbols]
